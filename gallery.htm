@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Veritatis Excet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+    <style>        
+        small { font-size: 0.9rem; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--Site banner-->
+        <picture>
+            <source media="(max-width:800px)" srcset="./images/header_small.jpg">
+            <img id="banner-img" src="./images/header.jpg" alt="Banner image" width="100%" height="25%">
+        </picture>
+        <div id="title-bar">
+            <img id="banner-icon" src="./images/title-icon.png" alt="Icon" width=auto height="100%">
+            <a id="banner-txt" href="index.htm">Veritatis Excet</a>
+        </div>
+
+        <!--Navigation bar-->
+        <nav>
+            <ul>
+                <li class="navbar-li"><a href="index.htm">Home</a></li>
+                <li class="navbar-li"><a class="active" href="gallery.htm">Gallery</a></li>
+                <li class="navbar-li"><a href="contact.htm">Contact</a></li>
+                <li class="navbar-li"><a href="aboutus.htm">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header><h1>Gallery</h1></header>
+
+        <div id="photo-div">
+            <a href="./images/gal01_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal01_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal01_720.jpg">
+                    <img src="./images/gal01_360.jpg" alt="Sewers">
+                </picture>
+            </a>
+            <a href="./images/gal02_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal02_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal02_720.jpg">
+                    <img src="./images/gal02_360.jpg" alt="Night town">
+                </picture>
+            </a>
+            <a href="./images/gal03_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal03_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal03_720.jpg">
+                    <img src="./images/gal03_360.jpg" alt="Backyard">
+                </picture>
+            </a>
+            <a href="./images/gal04_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal04_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal04_720.jpg">
+                    <img src="./images/gal04_360.jpg" alt="Residential area">
+                </picture>
+            </a>
+            <a href="./images/gal05_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal05_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal05_720.jpg">
+                    <img src="./images/gal05_360.jpg" alt="Mound">
+                </picture>
+            </a>
+            <a href="./images/gal06_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal06_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal06_720.jpg">
+                    <img src="./images/gal06_360.jpg" alt="Church">
+                </picture>
+            </a>
+            <a href="./images/gal07_1080.jpg" target="_blank">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./images/gal07_360.jpg">
+                    <source media="(max-width:800px)" srcset="./images/gal07_720.jpg">
+                    <img src="./images/gal07_360.jpg" alt="Birds-eye town">
+                </picture>
+            </a>
+        </div>
+    </main>
+
+    <div class="div-button">
+        <a id="spec-button" href="#">Return to top</a>
+    </div>
+
+    <footer>
+        <small>Veritatis Excet &copy; 2023</small>
+    </footer>
+</body>
+</html>
